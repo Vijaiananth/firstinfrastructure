@@ -92,6 +92,6 @@ workflows:
       #     requires:
       #       - create_infrastructure
 
-      - smoke_test
-        requires:
-          - create_infrastructure
+      - smoke_test:
+          requires:
+            - create_infrastructure
