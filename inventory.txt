@@ -1,3 +1,5 @@
 [all]
 ec2-3-223-195-90.compute-1.amazonaws.com
-3.223.195.90
+
+[insecuressh:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
